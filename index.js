@@ -16,7 +16,7 @@ const {Boom } = require('@hapi/boom')
 const { help , menu } = require('./src/menus/comand')
 const pino = require('pino');
 const fs = require('fs')
-
+const Sticker = require('wa-sticker-formatter')
 
 async function startbot(){
 
@@ -105,7 +105,7 @@ reaction("☺️")
 break
       
             break;
-/*case 's':
+case 's':
    //chamando a função de donwload;
    const stream = await downloadContentFromMessage(msg.message.imageMessage, 'image');
    enviar("Preparando requisição...");
@@ -153,7 +153,7 @@ shiina.sendMessage(from,{
      reaction("🥱");
      }
 
-break*/
+break
 
 }} catch(error){
   console.log(error)
