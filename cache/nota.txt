@@ -1,0 +1,1 @@
+Por favor exclua esse session.json , para você criar uma sessão do seu próprio zap.
